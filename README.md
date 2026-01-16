@@ -17,20 +17,17 @@ O principal objetivo desta análise é **entender o comportamento do capital hum
 As análises foram conduzidas com foco nos seguintes temas:
 
 - Rotatividade de colaboradores (Turnover)
-- Absenteísmo
 - Tempo de retenção dos funcionários
 - Qualidade das contratações
-- Distribuição do quadro de colaboradores por cargo e área
+
+*- Distribuição do quadro de colaboradores por cargo e área
 
 ---
 
 ## Indicadores Analisados
 
 ### 🔹 Turnover
-Análise da taxa de desligamentos ao longo do tempo, com segmentação por cargo e área, permitindo identificar setores com maior rotatividade e possíveis falhas nos processos de recrutamento, retenção ou liderança.
-
-### 🔹 Absenteísmo
-Avaliação do volume de ausências em relação às horas previstas de trabalho, analisando impactos operacionais, possíveis sobrecargas de equipes e relação com outros indicadores, como horas extras e turnover.
+Análise da taxa de desligamentos ao longo do tempo, com segmentação por cargos, permitindo identificar setores com maior rotatividade e possíveis falhas nos processos de recrutamento, retenção ou liderança.
 
 ### 🔹 Tempo de Retenção
 Medição do tempo médio de permanência dos colaboradores na empresa, permitindo avaliar a efetividade de práticas como recrutamento, integração (onboarding), benefícios e plano de carreira.
