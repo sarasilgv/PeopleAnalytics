@@ -1,13 +1,13 @@
 # Análise People Analytics
 
-Este projeto tem como objetivo realizar uma análise de **People Analytics** utilizando o banco de dados da **GlobalStone Brasil**, uma empresa industrial fictícia de médio/grande porte, com **operação fabril pesada**, fortemente ligada ao **processamento de rochas ornamentais (mármore e granito)**, além de atuar em **logística, armazenagem e exportação**, com presença relevante no mercado interno e externo.
+Este projeto tem como objetivo realizar uma análise de **People Analytics** utilizando o banco de dados da **GlobalStone Brasil**, uma empresa industrial fictícia de médio porte, com **operação fabril pesada**, fortemente ligada ao **processamento de rochas ornamentais (mármore e granito)**, além de atuar em **logística, armazenagem e exportação**, com presença relevante no mercado interno e externo.
 
 A análise é baseada em dados históricos do período de **2016 a 2020**, permitindo avaliar tendências, padrões e comportamentos relacionados à força de trabalho ao longo do tempo.
 
 ---
 
 ## Objetivo do Projeto
-
+ 
 O principal objetivo desta análise é **entender o comportamento do capital humano da organização**, identificando pontos de atenção e oportunidades de melhoria por meio de indicadores estratégicos de Recursos Humanos, apoiando a **tomada de decisão orientada por dados**.
 
 ---
@@ -19,15 +19,15 @@ As análises foram conduzidas com foco nos seguintes temas:
 - Rotatividade de colaboradores (Turnover)
 - Tempo de retenção dos funcionários
 - Qualidade das contratações
-
-*- Distribuição do quadro de colaboradores por cargo e área
+- Distribuição temporal do quadro de colaboradores
+- Colaboradores ativos de acordo com a faixa etária
 
 ---
 
-## Indicadores Analisados
+## Alguns dos Indicadores Analisados
 
 ### 🔹 Turnover
-Análise da taxa de desligamentos ao longo do tempo, com segmentação por cargos, permitindo identificar setores com maior rotatividade e possíveis falhas nos processos de recrutamento, retenção ou liderança.
+Análise da taxa de desligamentos ao longo do tempo.
 
 ### 🔹 Tempo de Retenção
 Medição do tempo médio de permanência dos colaboradores na empresa, permitindo avaliar a efetividade de práticas como recrutamento, integração (onboarding), benefícios e plano de carreira.
@@ -39,8 +39,9 @@ Identificação de desligamentos ocorridos nos primeiros meses de contrato, clas
 
 ## Metodologia
 
-- Utilização de **SQL** para extração, tratamento e análise dos dados
-- Criação de consultas analíticas com agregações, segmentações e cruzamento de informações
+- Base de Dados em Excel
+- Utilização de **SQL** para tratamento e análise dos dados
+- Criação de consultas analíticas com agregações, segmentações, criação de CTE e cruzamento de informações
 - Análises descritivas e diagnósticas para identificação de padrões e causas
 - Estruturação dos dados para possível uso em ferramentas de BI
   
@@ -59,7 +60,7 @@ Esse intervalo permite observar:
 
 ## Considerações Finais
 
-A análise de People Analytics aplicada à GlobalStone Brasil demonstra como o uso de dados pode transformar o RH em um **parceiro estratégico do negócio**, especialmente em empresas industriais intensivas em mão de obra operacional.
+A análise de People Analytics aplicada à GlobalStone Brasil demonstra como o uso de dados pode transformar o RH em um **parceiro estratégico do negócio**.
 
 Os insights gerados a partir dos indicadores analisados permitem:
 - Reduzir custos operacionais
@@ -71,7 +72,7 @@ Os insights gerados a partir dos indicadores analisados permitem:
 
 ## Tecnologias Utilizadas
 
-- SQL (PostgreSQL/MySQL – consultas analíticas)
+- Excel
+- SQL (PostgreSQL – consultas analíticas)
 - Modelagem de dados relacional
 - Conceitos de People Analytics e Business Intelligence
-
