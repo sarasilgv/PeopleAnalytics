@@ -72,7 +72,12 @@ Os insights gerados a partir dos indicadores analisados permitem:
 
 ## Tecnologias Utilizadas
 
-- Excel
-- SQL (PostgreSQL – consultas analíticas)
+![Excel](https://img.shields.io/badge/Excel-green?logo=Excel)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-BDE0FE?style=for-the-badge&logo=postgresql)
 - Modelagem de dados relacional
 - Conceitos de People Analytics e Business Intelligence
+
+## Conecte-se comigo!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sara-galv%C3%A3o-601776204/)
+
