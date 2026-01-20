@@ -1,10 +1,11 @@
--- Tempo de Retenção dos Colaboradores
+-- Tempo de Retenção por sexo
 
 with 
 	r as (
 		select
 			cod_funcionario,
 			cargo,
+			sexo,
 			data_admissao,
 			data_afastamento,
 			(data_afastamento - data_admissao) dias_trabalhando,
@@ -21,7 +22,14 @@ with
 
 select 
 	meses_trabalhados,
+	sexo,
 	count(*) qtde_funcionarios
 from r
-group by meses_trabalhados
-order by qtde_funcionarios desc
+group by
+	meses_trabalhados,
+	sexo
+order by
+	meses_trabalhados,
+	sexo
+
+
