@@ -41,7 +41,7 @@ Identificação de desligamentos ocorridos nos primeiros meses de contrato, clas
 
 - Base de Dados em Excel
 - Utilização de **SQL** para tratamento e análise dos dados
-- Criação de consultas analíticas com agregações, segmentações, criação de CTE e cruzamento de informações
+- Criação de consultas analíticas com agregações, segmentações, criação de Subqueries e cruzamento de informações
 - Análises descritivas e diagnósticas para identificação de padrões e causas
 - Estruturação dos dados para possível uso em ferramentas de BI
   
